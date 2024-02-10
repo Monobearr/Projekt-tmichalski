@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Maps with Leaflet</title>
+    <link rel="stylesheet" href="leaflet/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="leaflet/leaflet-src.js"></script>
+    <script src="leaflet/leaflet-providers.js"></script>
+    <script src="leaflet/leaflet-image.js"></script>
+</head>
+<body>
+<div id="map"></div>
+<div id="puzzle">
+    <div class="drag-target" id="d1"></div>
+    <div class="drag-target" id="d2"></div>
+    <div class="drag-target" id="d3"></div>
+    <div class="drag-target" id="d4"></div>
+    <div class="drag-target" id="d5"></div>
+    <div class="drag-target" id="d6"></div>
+    <div class="drag-target" id="d7"></div>
+    <div class="drag-target" id="d8"></div>
+    <div class="drag-target" id="d9"></div>
+    <div class="drag-target" id="d10"></div>
+    <div class="drag-target" id="d11"></div>
+    <div class="drag-target" id="d12"></div>
+    <div class="drag-target" id="d13"></div>
+    <div class="drag-target" id="d14"></div>
+    <div class="drag-target" id="d15"></div>
+    <div class="drag-target" id="d16"></div>
+</div>
+<button id="getLocation">Moja lokalizacja</button>
+<button id="saveButton">Pobierz mapę</button>
+<strong>Latitude:</strong> <span id="latitude"></span>
+<strong>Longitude:</strong> <span id="longitude"></span>
+
+<div id="puzzle_pieces">
+    <div id="draggable-item-1" class="item draggable" draggable="true">
+        <canvas id="can_1" width="175" height="100"></canvas>
+    </div>
+    <div id="draggable-item-2" class="item draggable" draggable="true">
+        <canvas id="can_2" width="175" height="100"></canvas>
+    </div>
+    <div id="draggable-item-3" class="item draggable" draggable="true">
+        <canvas id="can_3" width="175" height="100"></canvas>
+    </div>
+    <div id="draggable-item-4" class="item draggable" draggable="true">
+        <canvas id="can_4" width="175" height="100"></canvas>
+    </div>
+    <div id="draggable-item-5" class="item draggable" draggable="true">
+        <canvas id="can_5" width="175" height="100"></canvas>
+    </div>
+    <div id="draggable-item-6" class="item draggable" draggable="true">
+        <canvas id="can_6" width="175" height="100"></canvas>
+    </div>
+    <div id="draggable-item-7" class="item draggable" draggable="true">
+        <canvas id="can_7" width="175" height="100"></canvas>
+    </div>
+    <div id="draggable-item-8" class="item draggable" draggable="true">
+        <canvas id="can_8" width="175" height="100"></canvas>
+    </div>
+    <div id="draggable-item-9" class="item draggable" draggable="true">
+        <canvas id="can_9" width="175" height="100"></canvas>
+    </div>
+    <div id="draggable-item-10" class="item draggable" draggable="true">
+        <canvas id="can_10" width="175" height="100"></canvas>
+    </div>
+    <div id="draggable-item-11" class="item draggable" draggable="true">
+        <canvas id="can_11" width="175" height="100"></canvas>
+    </div>
+
+    <div id="draggable-item-12" class="item draggable" draggable="true">
+        <canvas id="can_12" width="175" height="100"></canvas>
+    </div>
+    <div id="draggable-item-13" class="item draggable" draggable="true">
+        <canvas id="can_13" width="175" height="100"></canvas>
+    </div>
+    <div id="draggable-item-14" class="item draggable" draggable="true">
+        <canvas id="can_14" width="175" height="100"></canvas>
+    </div>
+    <div id="draggable-item-15" class="item draggable" draggable="true">
+        <canvas id="can_15" width="175" height="100"></canvas>
+    </div>
+    <div id="draggable-item-16" class="item draggable" draggable="true">
+        <canvas id="can_16" width="175" height="100"></canvas>
+    </div>
+</div>
+<br>
+<script src="main.js"></script>
+</body>
+</html>
+
