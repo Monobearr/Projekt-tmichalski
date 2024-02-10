@@ -1,0 +1,83 @@
+body {
+    font-family: 'Times New Roman', serif; 
+    background: linear-gradient(to left, #ce792f, #e7e170);
+    color: #000000; 
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #add8e6; 
+    border-radius: 0; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); 
+    border: 4px solid #ffffff; 
+}
+
+.search-container {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.search-bar {
+    padding: 15px;
+    border-radius: 0; 
+    border: 2px solid #ffffff;
+    font-size: large;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.search-button {
+    padding: 15px 30px;
+    border-radius: 0; 
+    background: #75ffea;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    font-size: large;
+    transition: background-color 0.3s;
+}
+
+.search-button:hover {
+    background: #292d71;
+    color: #ffffff;
+}
+
+.result-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.blok-pogodowy {
+    height: 150px;
+    padding: 15px;
+    border: 2px dashed #070404;
+    border-radius: 0; 
+    background: rgba(255, 255, 255, 0.1);
+    color: #000000;
+}
+
+.blok-pogodowy h2 {
+    margin: 0;
+    font-size: x-large;
+    color: #941d1d;
+}
+
+.blok-pogodowy div {
+    margin-top: 10px;
+}
+
+.pogoda-placeholder {
+    margin: 0;
+    font-size: x-large;
+    color: #8d1b1b;
+    padding: 15px;
+    border: 2px dashed #ffffff;
+    border-radius: 0; 
+    background: rgba(102, 111, 216, 0.1);
+}
