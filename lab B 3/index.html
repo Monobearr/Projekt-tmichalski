@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Zadań</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" media="all"
+          href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/smoothness/jquery-ui.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="search">
+        <input class="search-bar" id="search-input" type="text" placeholder="szukaj">
+        <button class="search-button" >
+            <img class="search-icon" src="images/search-icon.svg" width="16" height="16">
+        </button>
+    </div>
+    <div class="input-container">
+        <input type="text" id="input-task" placeholder="dodaj zadanie">
+        <input type="date" id="input-date" max="9999-12-31">
+        <button type="submit" class="confirm-button" onclick="dodajZadanie()">
+            <img class="checkmark-icon" src="images/check-icon.png" width="16" height="16">
+        </button>
+    </div>
+    <div id="tasksContainer">
+    </div>
+</div>
+
+<script src="scripts/script.js"></script>
+</body>
+</html>
